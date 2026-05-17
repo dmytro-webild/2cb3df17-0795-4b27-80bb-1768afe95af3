@@ -51,7 +51,7 @@ export default function LandingPage() {
         { text: "Termin vereinbaren", href: "#contact" },
         { text: "WhatsApp Hilfe", href: "https://wa.me/4926124203" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg?_wi=1"
       mediaAnimation="slide-up"
       imageAlt="Heizung und Sanitär Handwerk"
       avatars={[
@@ -81,7 +81,7 @@ export default function LandingPage() {
         { title: "Pünktlich & Sauber", description: "Ihr Zuhause ist uns wichtig – wir hinterlassen alles tadellos." },
         { title: "Schnelle Hilfe", description: "Unser Notdienst ist in Notfällen für Sie da." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg?_wi=2"
       mediaAnimation="slide-up"
       imageAlt="Heizungstechnik"
     />
