@@ -32,26 +32,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Start",
-          id: "hero",
-        },
-        {
-          name: "Über uns",
-          id: "about",
-        },
-        {
-          name: "Leistungen",
-          id: "features",
-        },
-        {
-          name: "Referenzen",
-          id: "testimonials",
-        },
-        {
-          name: "Kontakt",
-          id: "contact",
-        },
+        { name: "Start", id: "hero" },
+        { name: "Über uns", id: "about" },
+        { name: "Leistungen", id: "features" },
+        { name: "Referenzen", id: "testimonials" },
+        { name: "Kontakt", id: "contact" },
       ]}
       brandName="Benno Riehl GmbH"
     />
@@ -59,73 +44,28 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplit
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       title="Ihr zuverlässiger Partner für Heizung, Lüftung & Sanitär in Koblenz"
       description="Meisterhafte Handwerksqualität aus Tradition. Wir sorgen für Wärme, frische Luft und erstklassige Bäder – pünktlich, sauber und absolut professionell."
       buttons={[
-        {
-          text: "Termin vereinbaren",
-          href: "#contact",
-        },
-        {
-          text: "WhatsApp Hilfe",
-          href: "https://wa.me/4926124203",
-        },
+        { text: "Termin vereinbaren", href: "#contact" },
+        { text: "WhatsApp Hilfe", href: "https://wa.me/4926124203" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=pe94y6"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg"
       mediaAnimation="slide-up"
-      imageAlt="luxury bathroom interior"
+      imageAlt="Heizung und Sanitär Handwerk"
       avatars={[
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vccx3t",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fsgvbc",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=t4q0cp",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lcygw6",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4u8lxc",
-          alt: "Kunde",
-        },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-p6b5g1w4.jpg", alt: "Kunde" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-p4rxyyrb.jpg", alt: "Kunde" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-a5qzvu98.jpg", alt: "Kunde" }
       ]}
       avatarText="Über 500+ zufriedene Kunden in Koblenz"
       marqueeItems={[
-        {
-          type: "text-icon",
-          text: "Meisterbetrieb",
-          icon: CheckCircle,
-        },
-        {
-          type: "text-icon",
-          text: "24/7 Notdienst",
-          icon: Phone,
-        },
-        {
-          type: "text-icon",
-          text: "Qualitätsgarantie",
-          icon: ShieldCheck,
-        },
-        {
-          type: "text-icon",
-          text: "Koblenz Lokal",
-          icon: MapPin,
-        },
-        {
-          type: "text-icon",
-          text: "Erfahrung",
-          icon: Award,
-        },
+        { type: "text-icon", text: "Meisterbetrieb", icon: CheckCircle },
+        { type: "text-icon", text: "24/7 Notdienst", icon: Phone },
+        { type: "text-icon", text: "Qualitätsgarantie", icon: ShieldCheck },
+        { type: "text-icon", text: "Koblenz Lokal", icon: MapPin },
+        { type: "text-icon", text: "Erfahrung", icon: Award },
       ]}
     />
   </div>
@@ -137,22 +77,13 @@ export default function LandingPage() {
       title="Benno Riehl GmbH – Meisterbetrieb aus Koblenz"
       description="Wir stehen für Zuverlässigkeit und höchste Handwerksqualität. Seit Jahren begleiten wir Privatkunden und Unternehmen in Koblenz mit Expertise in Heiztechnik, Badmodernisierung und Sanitärinstallationen. Sauberkeit ist für uns kein Versprechen, sondern Standard."
       bulletPoints={[
-        {
-          title: "Meisterqualität",
-          description: "Fachliche Exzellenz durch erfahrene Meisterhand.",
-        },
-        {
-          title: "Pünktlich & Sauber",
-          description: "Ihr Zuhause ist uns wichtig – wir hinterlassen alles tadellos.",
-        },
-        {
-          title: "Schnelle Hilfe",
-          description: "Unser Notdienst ist in Notfällen für Sie da.",
-        },
+        { title: "Meisterqualität", description: "Fachliche Exzellenz durch erfahrene Meisterhand." },
+        { title: "Pünktlich & Sauber", description: "Ihr Zuhause ist uns wichtig – wir hinterlassen alles tadellos." },
+        { title: "Schnelle Hilfe", description: "Unser Notdienst ist in Notfällen für Sie da." },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vf7hhs"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-5z59u6v0.jpg"
       mediaAnimation="slide-up"
-      imageAlt="heating technician professional"
+      imageAlt="Heizungstechnik"
     />
   </div>
 
@@ -162,35 +93,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       features={[
-        {
-          id: "f1",
-          title: "Heiztechnik",
-          tags: [
-            "Wartung",
-            "Modernisierung",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kbn2yl",
-          imageAlt: "heating system boiler",
-        },
-        {
-          id: "f2",
-          title: "Badsanierung",
-          tags: [
-            "Planung",
-            "Einbau",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=hs4hbk",
-          imageAlt: "modern bathroom spa",
-        },
-        {
-          id: "f3",
-          title: "Lüftung & Klima",
-          tags: [
-            "Optimierung",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=832bjo",
-          imageAlt: "ventilation system installation",
-        },
+        { id: "f1", title: "Heiztechnik", tags: ["Wartung", "Modernisierung"], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-p6b5g1w4.jpg" },
+        { id: "f2", title: "Badsanierung", tags: ["Planung", "Einbau"], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-p4rxyyrb.jpg" },
+        { id: "f3", title: "Lüftung & Klima", tags: ["Optimierung"], imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-a5qzvu98.jpg" },
       ]}
       title="Unsere Leistungen für Koblenz"
       description="Alles aus einer Hand für Ihr Zuhause oder Büro."
@@ -203,39 +108,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        {
-          id: "s1",
-          badge: "Notdienst",
-          price: "Notfall-Service",
-          subtitle: "Schnelle Hilfe bei Problemen",
-          buttons: [
-            {
-              text: "Notdienst anrufen",
-              href: "tel:026124203",
-            },
-          ],
-          features: [
-            "24/7 Erreichbarkeit",
-            "Direkte Hilfe",
-          ],
-        },
-        {
-          id: "s2",
-          badge: "Wartung",
-          price: "Wartungs-Check",
-          subtitle: "Sicherer Betrieb Ihrer Anlagen",
-          buttons: [
-            {
-              text: "Angebot anfragen",
-              href: "#contact",
-            },
-          ],
-          features: [
-            "Sicherheitsprüfung",
-            "Energieeffizienz",
-            "Werterhalt",
-          ],
-        },
+        { id: "s1", badge: "Notdienst", price: "Notfall-Service", subtitle: "Schnelle Hilfe bei Problemen", buttons: [{ text: "Notdienst anrufen", href: "tel:026124203" }], features: ["24/7 Erreichbarkeit", "Direkte Hilfe"] },
+        { id: "s2", badge: "Wartung", price: "Wartungs-Check", subtitle: "Sicherer Betrieb Ihrer Anlagen", buttons: [{ text: "Angebot anfragen", href: "#contact" }], features: ["Sicherheitsprüfung", "Energieeffizienz", "Werterhalt"] },
       ]}
       title="Transparenz und Vertrauen"
       description="Wir setzen auf faire Preise und klare Kommunikation."
@@ -248,28 +122,7 @@ export default function LandingPage() {
       testimonial="Die Benno Riehl GmbH hat unser Bad perfekt renoviert. Sehr sauber, schnell und absolut kompetent. Wir sind begeistert von der Zuverlässigkeit!"
       rating={5}
       author="Familie Weber, Koblenz"
-      avatars={[
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vccx3t",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fsgvbc",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=t4q0cp",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lcygw6",
-          alt: "Kunde",
-        },
-        {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4u8lxc",
-          alt: "Kunde",
-        },
-      ]}
+      avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DrJqxA6utyvknanUlhm2vma0sO/uploaded-1779036258809-p6b5g1w4.jpg", alt: "Kunde" }]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
     />
@@ -279,15 +132,7 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={false}
-      names={[
-        "Vaillant",
-        "Viessmann",
-        "Grohe",
-        "Geberit",
-        "Buderus",
-        "Hansgrohe",
-        "Danfoss",
-      ]}
+      names={["Vaillant", "Viessmann", "Grohe", "Geberit", "Buderus", "Hansgrohe", "Danfoss"]}
       title="Unsere Partner & Zertifizierungen"
       description="Qualitätsmarken, denen wir vertrauen."
     />
@@ -298,21 +143,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       faqs={[
-        {
-          id: "q1",
-          title: "Bieten Sie Notdienst an?",
-          content: "Ja, wir sind in dringenden Notfällen für unsere Kunden erreichbar.",
-        },
-        {
-          id: "q2",
-          title: "Wie schnell bekommen wir einen Termin?",
-          content: "Wir bemühen uns stets um eine zeitnahe Terminvergabe, besonders bei Modernisierungswünschen.",
-        },
-        {
-          id: "q3",
-          title: "Arbeiten Sie sauber?",
-          content: "Sauberkeit und ein gepflegter Arbeitsplatz sind für unsere Meisterbetrieb-Werte essentiell.",
-        },
+        { id: "q1", title: "Bieten Sie Notdienst an?", content: "Ja, wir sind in dringenden Notfällen für unsere Kunden erreichbar." },
+        { id: "q2", title: "Wie schnell bekommen wir einen Termin?", content: "Wir bemühen uns stets um eine zeitnahe Terminvergabe, besonders bei Modernisierungswünschen." },
+        { id: "q3", title: "Arbeiten Sie sauber?", content: "Sauberkeit und ein gepflegter Arbeitsplatz sind für unsere Meisterbetrieb-Werte essentiell." },
       ]}
       title="Häufige Fragen"
       description="Hier finden Sie schnelle Antworten."
@@ -323,19 +156,11 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       text="Jetzt Termin vereinbaren – Ihr Meisterbetrieb für Koblenz und Umgebung: 0261 24203."
       buttons={[
-        {
-          text: "Jetzt anrufen",
-          href: "tel:026124203",
-        },
-        {
-          text: "WhatsApp schreiben",
-          href: "https://wa.me/4926124203",
-        },
+        { text: "Jetzt anrufen", href: "tel:026124203" },
+        { text: "WhatsApp schreiben", href: "https://wa.me/4926124203" },
       ]}
     />
   </div>
@@ -344,53 +169,9 @@ export default function LandingPage() {
       <FooterBaseCard
       logoText="Benno Riehl GmbH"
       columns={[
-        {
-          title: "Kontakt",
-          items: [
-            {
-              label: "Aachener Straße 10",
-              href: "#",
-            },
-            {
-              label: "56072 Koblenz",
-              href: "#",
-            },
-            {
-              label: "0261 24203",
-              href: "tel:026124203",
-            },
-          ],
-        },
-        {
-          title: "Service",
-          items: [
-            {
-              label: "Heizung",
-              href: "#",
-            },
-            {
-              label: "Badsanierung",
-              href: "#",
-            },
-            {
-              label: "Notdienst",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Rechtliches",
-          items: [
-            {
-              label: "Impressum",
-              href: "#",
-            },
-            {
-              label: "Datenschutz",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Kontakt", items: [{ label: "Aachener Straße 10", href: "#" }, { label: "56072 Koblenz", href: "#" }, { label: "0261 24203", href: "tel:026124203" }] },
+        { title: "Service", items: [{ label: "Heizung", href: "#" }, { label: "Badsanierung", href: "#" }, { label: "Notdienst", href: "#" }] },
+        { title: "Rechtliches", items: [{ label: "Impressum", href: "#" }, { label: "Datenschutz", href: "#" }] },
       ]}
     />
   </div>
